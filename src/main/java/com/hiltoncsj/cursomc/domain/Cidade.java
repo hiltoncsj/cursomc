@@ -1,8 +1,6 @@
 package com.hiltoncsj.cursomc.domain;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -85,6 +83,4 @@ public class Cidade implements Serializable {
 			return false;
 		return true;
 	}
-	
-	
 }
